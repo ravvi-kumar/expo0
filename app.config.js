@@ -1,8 +1,11 @@
-{
+module.exports = {
   "expo": {
     "name": "expo0",
     "slug": "expo0",
     "version": "1.0.0",
+    "extra": {
+      "clerkPublishableKey": process.env.CLERK_PUBLISHABLE_KEY,
+    },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
